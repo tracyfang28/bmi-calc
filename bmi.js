@@ -6,11 +6,15 @@ statsForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const weight = document.getElementById("weight").value;
     if (weight > 600 || weight < 0){
-        alert("Please enter a valid weight in kg between 0 and 600.")
+        alert("Please enter a valid weight in kg between 0 and 600.");
+        statsForm.reset();
+        return;
     }
     const height = document.getElementById("height").value;
     if (height > 3 || height < 0){
-        alert("Please enter a valid height in m between 0 and 3.")
+        alert("Please enter a valid height in m between 0 and 3.");
+        statsForm.reset();
+        return;
     }
     const bmi = bmiCalc(weight, height).toFixed(1);
     const { type: bmiType, color } = bmiCategory(bmi);
