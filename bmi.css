@@ -43,21 +43,21 @@ input[type=submit] {
     text-align: center;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1024px) {
     body {
         padding-top: 2em;
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     form {
         font-size: 2.5em;
-        width: 60vw;
+        width: 65vw; 
     }
 
     input[type=number] {
-        width: 80%;
+        width: 90%;
     }
-  }
+}
