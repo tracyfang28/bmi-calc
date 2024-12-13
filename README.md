@@ -1,13 +1,13 @@
-BMI Calculator
+# BMI Calculator
 
-This is a simple BMI (Body Mass Index) Calculator web application built with HTML, CSS, and JavaScript. Users can input their weight (in kilograms) and height (in meters) to calculate their BMI and see the corresponding category (e.g., underweight, normal, overweight, or obese) highlighted in different colors.
+This is a simple responsive BMI (Body Mass Index) Calculator application built with HTML, CSS, and JavaScript. Users input their weight (in kilograms) and height (in meters) to calculate their BMI and see the corresponding category (e.g., underweight, normal, overweight, or obese) highlighted in different colors.
 
-Languages Used
-HTML: For the structure of the web page.
-CSS: For styling the web page.
-JavaScript: For the BMI calculation and dynamic content display.
+## Languages Used
+**HTML**: For the structure of the web page. <br>
+**CSS**: For styling the web page. <br>
+**JavaScript**: For the BMI calculation and dynamic content display.
 
-How to use
+## How to use
 1. Open index.html in any modern web browser.
 2. Enter your weight in kilograms into the "Weight" field.
 3. Enter your height in meters into the "Height" field.
