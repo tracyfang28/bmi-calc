@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body { 
+    font-family: "Open Sans", serif; 
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2em solid #df708a;
+    border-radius: 2em;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 0.2em;
+    font-size: 0.9em;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    padding: 1em;
+}
+
+input[type=submit] {
+    padding: 0.5em 1.2em;
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        padding-top: 2em;
+    }
+  }
