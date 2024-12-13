@@ -34,11 +34,30 @@ input[type=number] {
 
 input[type=submit] {
     padding: 0.5em 1.2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+    border: 2px solid black;
 }
 
-@media only screen and (max-width: 500px) {
+#bmi-result {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1500px) {
     body {
         padding-top: 2em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    form {
+        font-size: 2.5em;
+        width: 60vw;
+    }
+
+    input[type=number] {
+        width: 80%;
     }
   }

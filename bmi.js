@@ -5,7 +5,13 @@ const bmiResult = document.getElementById("bmi-result");
 statsForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const weight = document.getElementById("weight").value;
+    if (weight > 600 || weight < 0){
+        alert("Please enter a valid weight in kg between 0 and 600.")
+    }
     const height = document.getElementById("height").value;
+    if (height > 3 || height < 0){
+        alert("Please enter a valid height in m between 0 and 3.")
+    }
     const bmi = bmiCalc(weight, height).toFixed(1);
     const { type: bmiType, color } = bmiCategory(bmi);
     bmiResult.innerHTML = `Your bmi is ${bmi} which is <span style="color: ${color}; font-weight: bold;"> ${bmiType} </span>`;

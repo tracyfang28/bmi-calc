@@ -8,7 +8,7 @@ CSS: For styling the web page.
 JavaScript: For the BMI calculation and dynamic content display.
 
 How to use
-1. Open bmi.html in any modern web browser.
+1. Open index.html in any modern web browser.
 2. Enter your weight in kilograms into the "Weight" field.
 3. Enter your height in meters into the "Height" field.
 4. Click the "Submit" button.
